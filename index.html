@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phạm Thị Hồng Thắm - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="main.css"> -->
+     <style>
+        body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.icon-contact {
+    width: 18px;
+    height: 18px;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+    background-color: #161b22;
+    border-radius: 10px;
+    border: 1px solid #30363d;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h1,
+h2,
+h3 {
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #58a6ff;
+    font-family: 'Courier New', monospace;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.typing-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(20, end) 0s infinite, blink 1s step-end infinite;
+    max-width: 0;
+}
+
+@keyframes typing {
+    0% {
+        max-width: 0;
+    }
+
+    30% {
+        max-width: 16ch;
+    }
+
+    80% {
+        max-width: 16ch;
+    }
+
+    100% {
+        max-width: 0;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #58a6ff;
+    }
+}
+
+.section {
+    margin: 30px 0;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 12px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.frontend {
+    background-color: #f14e32;
+}
+
+.backend {
+    background-color: #2ea043;
+}
+
+.database {
+    background-color: #116149;
+}
+
+.architecture {
+    background-color: #6f42c1;
+}
+
+.tool {
+    background-color: #e36209;
+}
+
+.print-btn {
+    background-color: #238636;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.print-btn:hover {
+    background-color: #2ea043;
+}
+
+.stats-box {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.stats-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.connect {
+    margin-top: 40px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.gmail {
+    background-color: #d44638;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.skill-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #21262d;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.skill-badge i {
+    font-size: 16px;
+}
+
+.badge img.icon {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+@media print {
+    .print-btn {
+        display: none;
+    }
+}
+     </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>👩‍💻 Phạm Thị Hồng Thắm</h1>
+            <!-- <button onclick="window.print()" class="print-btn">
+                <i class="fas fa-print"></i> In CV / Download PDF
+            </button> -->
+        </div>
+        <div class="subtitle">
+            <span class="typing-text">Software Testing</span>
+        </div>
+
+        <div class="contact-info">
+            <p>
+                <img src="https://img.icons8.com/fluency/48/gmail-new.png" class="icon-contact" />
+                ptht101002@gmail.com
+            </p>
+            <p>
+                <img src="https://img.icons8.com/fluency/48/phone.png" class="icon-contact" />
+                +84 382 718 100
+            </p>
+            <p>
+                <img src="https://img.icons8.com/fluency/48/marker.png" class="icon-contact" />
+                Hòa Minh, Liên Chiểu, Đà Nẵng
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ My Skills</h2>
+            <h3>FrontEnd</h3>
+            <span class="badge frontend"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png" class="icon">
+                HTML5</span>
+            <span class="badge frontend"><img src="https://img.icons8.com/color/48/000000/css3.png" class="icon">
+                CSS3</span>
+            <span class="badge frontend"><img src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                    class="icon"> JavaScript</span>
+            <span class="badge frontend"><img src="https://cdn.worldvectorlogo.com/logos/flutter.svg" class="icon">
+                Flutter</span>
+            <span class="badge frontend"><img src="https://img.icons8.com/color/48/000000/figma--v1.png" class="icon">
+                Figma</span>
+
+
+            <h3>BackEnd / Testing</h3>
+            <span class="badge backend"><img src="https://img.icons8.com/color/48/000000/dart.png" class="icon">
+                Dart</span>
+            <span class="badge backend"><img src="https://img.icons8.com/color/48/000000/firebase.png" class="icon">
+                Firebase</span>
+            <span class="badge backend"><img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png"
+                    class="icon"> SQL Server</span>
+            <span class="badge backend"><img src="https://cdn.worldvectorlogo.com/logos/postman.svg" class="icon">
+                Postman</span>
+            <span class="badge backend"><i class="fas fa-code-branch"></i>
+                Swagger</span>
+            <span class="badge backend"><i class="fas fa-bug"></i> Manual Testing</span>
+            <span class="badge backend"><i class="fas fa-robot"></i> Katalon</span>
+
+
+            <h3>Tools & Soft Skills</h3>
+            <span class="badge tool"><img src="https://img.icons8.com/ios-filled/50/000000/github.png" class="icon">
+                GitHub</span>
+            <span class="badge tool"><img src="https://img.icons8.com/ios-filled/50/000000/task.png" class="icon">
+                Backlog</span>
+            <span class="badge tool"><img src="https://img.icons8.com/color/48/000000/google-sheets.png" class="icon">
+                Google Sheets</span>
+            <span class="badge tool"><i class="fas fa-project-diagram"></i>
+                Agile/Scrum</span>
+            <span class="badge tool"><img src="https://img.icons8.com/ios-filled/50/000000/microsoft-office-2019.png"
+                    class="icon"> MS Office</span>
+            <span class="badge tool"><i class="fas fa-bullhorn"></i> Media & Events</span>
+            <span class="badge tool"><i class="fas fa-comments"></i> Communication</span>
+            <span class="badge tool"><i class="fas fa-users"></i> Teamwork</span>
+
+        </div>
+
+        <div class="section">
+            <h2>Connect with me</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/phamthihongtham/" class="linkedin">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn icon"> LinkedIn
+                </a>
+                <a href="mailto:ptht101002@gmail.com" class="gmail">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail icon"> Gmail
+                </a>
+                <a href="https://www.facebook.com/moennw/" class="facebook">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook icon"> Facebook
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
